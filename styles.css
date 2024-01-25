@@ -167,47 +167,37 @@ h1 {
 /* fim sidebar */
 
 /* início footer */
-.footer {
+
+.footer{
     width: 100%;
-    border: 1px solid red;
-    position: absolute;
-    bottom: 0;
-}
-
-.footer__content {
+    height: 80px;
     display: flex;
-    color: #fff;
-}
-
-.footer .footer__content {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer_content p {
+    color: #fff;
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
-}
-
-.footer__content .text {
     margin: 20px 30px;
 }
 
-.footer__content .subtitle {
-    margin: 0px 30px;
-}
-
-.footer__button {
-    color: #000;
-    background-color: #fff;
+.footer .footer_content__button{
+    width: 12rem;
+    height: 45px;
+    margin: 20px 20px;
+    border-radius: 25px;
+    border: none;
     font-weight: 700;
-    padding: 10px;
-    border-radius: 20px;
 }
 
-.footer__button {
-    display: -webkit-box;
-    justify-content: end;
-    align-items: end;
-    border: 1px solid red;
+.footer .footer_content__button:hover{
+    width: 13rem;
+    height: 47px;
 }
+
 
 /* fim footer */
