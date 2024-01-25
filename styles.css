@@ -6,6 +6,7 @@ h1 {
     color: #fff;
 }
 
+/* início sidebar */
 .sidebar {
     position: fixed;
     top: 0;
@@ -110,11 +111,9 @@ h1 {
     padding-bottom: 14px;
     color: #fff;
     font-family: "DM Sans", sans-serif;
-}
-
-.section-playlist__content .title {
     font-weight: 700;
 }
+
 
 .section-playlist__content .subtitle {
     font-weight: 500;
@@ -164,3 +163,51 @@ h1 {
     cursor: pointer;
     border-radius: 20px;
 }
+
+/* fim sidebar */
+
+/* início footer */
+.footer {
+    width: 100%;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__content {
+    display: flex;
+    color: #fff;
+}
+
+.footer .footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+
+.footer__content .text {
+    margin: 20px 30px;
+}
+
+.footer__content .subtitle {
+    margin: 0px 30px;
+}
+
+.footer__button {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footer__button {
+    display: -webkit-box;
+    justify-content: end;
+    align-items: end;
+    border: 1px solid red;
+}
+
+/* fim footer */
