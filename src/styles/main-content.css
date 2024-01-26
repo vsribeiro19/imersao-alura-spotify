@@ -14,7 +14,7 @@
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: var(--bg-background-secondary);
 }
 
 .header__navigation .navigation {
@@ -28,7 +28,8 @@
 }
 
 
-.arrow-left, .arrow-right {
+.arrow-left,
+.arrow-right {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,3 +91,28 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+/* fim header */
+
+/* section */
+.section {
+    background-color: var(--bg-background-secondary);
+    max-width: 80vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+.section__navigation h1{
+    /* border: 1px solid red; */
+    padding: 50px 30px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.section__navigation h2{
+    color: var(--color-white);
+    font-weight: 800;
+    padding: 40px 30px;
+}
+
+/* fim section */
